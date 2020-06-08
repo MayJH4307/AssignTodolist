@@ -1,0 +1,76 @@
+body{
+    background-color: #1b2727;
+}
+
+h1 {
+    background-color: #6bbe4e;
+    padding: 10px;
+    padding-left: 20px;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#container {
+    width: 25%;
+    padding: 0;
+    
+}
+
+div {
+    margin: auto;
+}
+
+ul {
+    background-color: #b2c5b2;
+    margin: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+li {
+    margin: 0;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    max-width: 350px;
+    width: 85%;
+    
+}
+
+li:hover {
+    background-color: white;
+    
+}
+
+input[type="checkbox"] {
+    text-align: center;
+    margin-right: 10px;
+}
+
+/*input[type="checkbox"]:checked {
+    text-decoration: line-through;
+}*/
+
+span{
+    float: right;
+    padding-right: 10px;
+}
+
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}
+
+input[type=checkbox]:checked + label{
+    text-decoration: line-through;
+    color: gray;
+ }
+
+input[type="text"] {
+    width: 100%;
+    box-sizing: border-box;
+}
